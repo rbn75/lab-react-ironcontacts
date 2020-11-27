@@ -49,7 +49,7 @@ class App extends Component {
   render(){
     return (
    <div className="App">
-        <h1>Iron contacts</h1>
+        <h1>Iron Contacts</h1>
         <button onClick={()=>this.addRandom()}>Add random contact</button>
         <button onClick={()=>this.sortName()}>Sort by name</button>
         <button onClick={()=>this.sortPopularity()}>Sort by popularity</button>
